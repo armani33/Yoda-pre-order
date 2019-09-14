@@ -1,10 +1,31 @@
 .nav-container{
+  margin: 0;
+  padding: 0;
   .nav-content{
+    background-color: blue;
+    padding: 10px;
     display: flex;
     .nav-logo{
+      margin-left: 100px;
       img{
-        width: 100px;
+        width: 135px;
       }
+    }
+    .menu-container{
+      .menu-content{
+        ul{
+          list-style: none;
+          li{
+            float: left;
+            padding: 5px;
+            margin-left: 10px;
+            font-family: $body-font;
+          }
+        }
+      }
+    }
+    .btn-container{
+
     }
   }
 }
